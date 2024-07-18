@@ -1,0 +1,3 @@
+.ui.button {
+  flex-shrink: 0;
+}

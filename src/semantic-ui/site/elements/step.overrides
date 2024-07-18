@@ -1,0 +1,39 @@
+
+.ui.mini.steps > .step {
+  padding: 0.5em 2em;
+}
+
+
+@media screen and (max-width: 1050px) {
+  .ui.mini.steps > .step > .icon {
+    font-size: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 950px) {
+  .registerPackage .ui.mini.steps > .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+  .registerPackage .ui.mini.steps > .step:first-child {
+    padding: 1em;
+  }
+  .registerPackage .ui.mini.steps > .step:last-child {
+    padding: 1em;
+  }
+  .registerPackage .ui.mini.steps .title {
+    margin: 0;
+    margin-top: 0.5em;
+  }
+  .registerPackage .ui.mini.steps > .step > .icon {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 620px) {
+  .registerPackage .ui.mini.steps .title {
+    display: none;
+  }
+}

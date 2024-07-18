@@ -1,0 +1,6 @@
+.cache/**
+.swc/**
+build/**
+node_modules/**
+.eslintrc.js
+tailwind.config.ts

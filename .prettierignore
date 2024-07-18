@@ -1,0 +1,10 @@
+# ignore all files
+*
+
+# include all folders
+!/src/**/
+
+# include files to format
+!*.js
+!*.ts
+!*.tsx
